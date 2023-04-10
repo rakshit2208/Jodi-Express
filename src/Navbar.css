@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    height: 80px;
+    background-color: #ff0062;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 80px;
+   
+}
+nav .logo{
+    font-size: 30px;
+    color: whitesmoke;
+}
+nav b{
+    color: #060047;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0px 5px;
+    padding: 10px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;    
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: #060047;  
+    border-radius: 5px;
+}
+nav .menubar i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+  
+  
+/** Responsive Navigation Bar Code**/
+  
+@media (max-width:940px){
+    nav .menubar i{
+        display: block;
+    }
+    #click:checked ~ .menubar i:before{
+        content:"\f00d";
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #ff0062;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    nav ul li{
+        margin: 20px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+        font-weight: 600;
+    }
+    nav ul li a:hover{
+        color: #fff;
+    }
+}
