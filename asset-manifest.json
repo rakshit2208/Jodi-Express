@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jodi-Express/static/css/main.95472672.css",
+    "main.js": "/Jodi-Express/static/js/main.cb6f1c3f.js",
+    "static/js/787.0671f54d.chunk.js": "/Jodi-Express/static/js/787.0671f54d.chunk.js",
+    "index.html": "/Jodi-Express/index.html",
+    "main.95472672.css.map": "/Jodi-Express/static/css/main.95472672.css.map",
+    "main.cb6f1c3f.js.map": "/Jodi-Express/static/js/main.cb6f1c3f.js.map",
+    "787.0671f54d.chunk.js.map": "/Jodi-Express/static/js/787.0671f54d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95472672.css",
+    "static/js/main.cb6f1c3f.js"
+  ]
+}
