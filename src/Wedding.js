@@ -5,7 +5,7 @@ function Wedding() {
   return (
     <div>
       <div className="main">
-        <h1 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"30px"}}>Wedding</h1>
+        <h1 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"30px",fontFamily:"Bradley Hand, cursive",fontStyle:"italic"}}>Wedding</h1>
         <ul className="cards">
           <li className="cards_item">
             <div className="card">

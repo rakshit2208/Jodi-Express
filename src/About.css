@@ -1,6 +1,6 @@
-* {
+/* * {
   font-family: Nunito, sans-serif;
-}
+} */
 
 .responsive-container13-block {
   min-height: 75px;
@@ -54,9 +54,9 @@
 
 .text-blk.headingText {
   font-size: 25px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 34px;
-  color: rgb(51, 51, 51);
+  color: black;
   padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -81,10 +81,10 @@
 }
 
 .text-blk.subHeadingText {
-  color: rgb(102, 102, 102);
+  color: black;
   font-size: 25px;
   line-height: 34px;
-  font-weight: 700;
+  /* font-weight: 700; */
   padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -98,7 +98,7 @@
 .text-blk.description {
   font-size: 25px;
   line-height: 34px;
-  color: rgb(102, 102, 102);
+  color:black;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 50px;
@@ -309,6 +309,9 @@
 
   .mainImg {
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
   }
 
   .responsive-container13-block.bigcontainer13 {
@@ -321,17 +324,17 @@
   .text-blk.subHeadingText {
     font-size: 25px;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 10px;
   }
 
   .text-blk.description {
     font-size: 25px;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-bottom: 0px;
-    padding-left: 0px;
+    padding-left: 10px;
   }
 
   .allText {

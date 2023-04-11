@@ -3,7 +3,7 @@ import './ContactUs.css'
 function ContactUs() {
   return (
    <>
-   <h2 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"35px"}}>Contact Us</h2>
+   <h2 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"35px",fontFamily:"Bradley Hand, cursive",fontStyle:"italic"}}>Contact Us</h2>
         <div className="container12">
   <div className="content">
     <div className="left-side">

@@ -5,7 +5,7 @@ function WhyUs() {
   return (
     <div>
       <div className="wrappers">
-  <h1 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"30px"}}>Why Us?</h1>
+  <h1 style={{textAlign:'center' , fontSize:"30px" ,marginTop:"30px",fontFamily:"Bradley Hand, cursive",fontStyle:"italic"}}>Why Us?</h1>
   <div className="our_team1">
     <div className="team_member1">
       {/* <div className="member_img1">
